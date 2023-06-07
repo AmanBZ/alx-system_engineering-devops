@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Alv --group-directories-first | awk '{gsub(/[^A-Za-z0-9\/\.\n]/,"");ORS=",\n";if($0)print}END{printf("\n")}' | sed 's/\/,$/\//'
+ls -al . .. /boot
