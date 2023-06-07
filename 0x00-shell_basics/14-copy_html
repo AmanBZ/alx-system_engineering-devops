@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -av --exclude='.*' --update ./*.html ../
+cp -un *.html ../
