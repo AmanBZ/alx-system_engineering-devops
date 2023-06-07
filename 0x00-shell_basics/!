@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Iterate through all .html files in the current working directory
+for html_file in *.html
+do
+    # Check if the file is newer or doesn't already exist in the parent directory
+    if [ ! -e "../$html_file" ] || [ "$html_file" -nt "../$html_file" ]
+    then
+        # Copy the file to the parent directory
+        cp "$html_file" "../$html_file"
+    fi
+done
