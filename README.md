@@ -1,1 +1,1 @@
-# alx-system_engineering-devops
+This repository is for storing the bash scripts assoiated with an Alx-SE proje
