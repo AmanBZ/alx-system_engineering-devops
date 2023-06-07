@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%s," $(ls -Ap --sort=version --ignore='[![:alnum:]]') | sed 's/,$/\n/'
+ls  -amvp
