@@ -1,1 +1,0 @@
-SCHOOL Sample data
